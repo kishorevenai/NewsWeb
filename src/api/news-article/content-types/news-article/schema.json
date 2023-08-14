@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_articles",
+  "info": {
+    "singularName": "news-article",
+    "pluralName": "news-articles",
+    "displayName": "News-Article",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Post": {
+      "type": "string"
+    },
+    "PostContent": {
+      "type": "richtext",
+      "required": true
+    },
+    "Title": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "MetaTags": {
+      "type": "richtext"
+    },
+    "time": {
+      "type": "date",
+      "required": true,
+      "unique": true,
+      "default": "2023-04-01"
+    }
+  }
+}
