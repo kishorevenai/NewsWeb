@@ -1,0 +1,105 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news1s",
+  "info": {
+    "singularName": "news1",
+    "pluralName": "news1s",
+    "displayName": "News1",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "MiddlePartTitle1": {
+      "type": "richtext"
+    },
+    "MiddlePartContent1": {
+      "type": "richtext"
+    },
+    "MiddlePartTitle2": {
+      "type": "richtext"
+    },
+    "MiddlePartContent2": {
+      "type": "richtext"
+    },
+    "SidePartContent1": {
+      "type": "richtext"
+    },
+    "SidePartContent2": {
+      "type": "richtext"
+    },
+    "SidePartContent3": {
+      "type": "richtext"
+    },
+    "SidePartContent4": {
+      "type": "richtext"
+    },
+    "SidePartContent5": {
+      "type": "richtext"
+    },
+    "SidePartTitle1": {
+      "type": "richtext"
+    },
+    "SidePartTitle2": {
+      "type": "richtext"
+    },
+    "SidePartTitle3": {
+      "type": "richtext"
+    },
+    "SidePartTitle4": {
+      "type": "richtext"
+    },
+    "SidePartTitle5": {
+      "type": "richtext"
+    },
+    "SidePartDate2": {
+      "type": "date"
+    },
+    "SidePartDate1": {
+      "type": "date"
+    },
+    "SidePartDate3": {
+      "type": "date"
+    },
+    "SidePartDate4": {
+      "type": "date"
+    },
+    "SidePartDate5": {
+      "type": "date"
+    },
+    "Advertisment1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Advertisment2": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "SidePartImage1": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
